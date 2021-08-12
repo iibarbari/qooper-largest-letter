@@ -1,0 +1,18 @@
+{
+  "name": "qooper-largest-letter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/iibarbari/qooper-largest-letter.git",
+  "author": "İlknur Ültanır <45620986+iibarbari@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --watch './**/*.ts' --exec 'ts-node' ./src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.0"
+  }
+}
